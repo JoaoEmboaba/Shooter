@@ -1,0 +1,3 @@
+alter table nota
+add constraint fk_nota foreign key ("chave primária")
+references aluno ("Chave primária")
